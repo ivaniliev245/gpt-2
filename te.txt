@@ -15,3 +15,5 @@ python src/interactive_conditional_samples.py
 python src/interactive_conditional_samples2.py
 
 set PYTHONIOENCODING=utf-8
+cd C:\Users\coils\Documents\GitHub\gpt-2
+python src/server.py

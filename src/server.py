@@ -14,9 +14,9 @@ app = Flask(__name__)
 MODEL_NAME = '124M'
 MODELS_DIR = os.path.expanduser(os.path.expandvars('models'))
 LENGTH = 100
-TEMPERATURE = 1
+TEMPERATURE = 0.7
 TOP_K = 40
-TOP_P = 1
+TOP_P = 1.0
 
 # Load the model and initialize TensorFlow session
 enc = encoder.get_encoder(MODEL_NAME, MODELS_DIR)
