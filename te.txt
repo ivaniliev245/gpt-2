@@ -1,0 +1,15 @@
+
+• Clone the Repository: Start by cloning the OpenAI GPT-2 repository
+bash
+git clone https://github.com/openai/gpt-2.git
+cd gpt-2
+• Install Dependencies: Install the necessary dependencies.
+bash
+pip install -r requirements.txt
+• Download Model Weights: Download the model weights. Here, you different model sizes based on your requirements.
+bash
+python3 download_model.py 124M
+• Start the Interactive Session: Start the ChatGPT model and begin
+bash
+python src/interactive_conditional_samples.py
+python src/interactive_conditional_samples2.py

@@ -13,12 +13,13 @@ def interact_model(
     seed=None,
     nsamples=1,
     batch_size=1,
-    length=100,
-    temperature=1,
-    top_k=0,
-    top_p=1,
+    length=100,         # Increase length for detailed responses
+    temperature=0.5,    # More deterministic sampling
+    top_k=40,           # Focus on the top 40 options
+    top_p=0.9,          # Enable nucleus sampling
     models_dir='models',
 ):
+
     """
     Interactively run the model
     :model_name=124M : String, which model to use
