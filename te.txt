@@ -13,3 +13,5 @@ python3 download_model.py 124M
 bash
 python src/interactive_conditional_samples.py
 python src/interactive_conditional_samples2.py
+
+set PYTHONIOENCODING=utf-8
