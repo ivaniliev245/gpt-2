@@ -12,10 +12,6 @@ python3 download_model.py 124M
 • Start the Interactive Session: Start the ChatGPT model and begin
 bash
 python src/interactive_conditional_samples.py
-
-
-cd C:\Users\coils\Documents\GitHub\gpt-2
 python src/interactive_conditional_samples2.py
-curl -X POST http://127.0.0.1:5000/generate -H "Content-Type: application/json" -d '{"prompt": "Once upon a time"}'
 
-python src/server.py
+set PYTHONIOENCODING=utf-8
